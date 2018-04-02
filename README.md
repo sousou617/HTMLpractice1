@@ -1,1 +1,7 @@
-# HTMLpractice1
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My Blog</title>
+	</head>
+	
+	
