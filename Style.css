@@ -1,0 +1,42 @@
+body {
+	color: #6A16B6;
+}
+
+nav ul{
+	list-style: none;
+}
+
+nav li{
+	display: inline;
+}
+
+nav{
+	background-color: #333
+}
+
+nav a{
+	color: white;
+	text-decoration: none;
+	font-size: 18px
+	padding-right: 15px;
+}
+
+.main-header{
+	background-color: coral;
+	color: #6A16B6;
+	text-align: center;
+}
+
+#showcase{
+		background-image: url(../showcase.jpeg);
+	color: white;
+}
+
+#container{
+	width: 70%;
+	float: right;
+}
+
+#aside{
+	text-align: center;
+}

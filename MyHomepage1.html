@@ -2,25 +2,34 @@
 <html>
 <head>
 	<title>Home Page</title>
+	<link rel="stylesheet" type="text/css" href="homepage1.css">
 </head>
 <body>
-	<h1><a href="Cheatsheet.HTML">Sai Brown</a></h1>
-	<img src="https://www.w3schools.com/html/workplace.jpg" alt="Computer and Coffee" width="30%" height="30%">
+	<div>
+		<h1 id="main-name"><a href="Cheatsheet.HTML">Sai Brown</a></h1>
+	</div>
 	<section>
 		<nav>
-			<ul>
-				<li><a href="Contact.html">My Contact</a></li>
-				<li><a href="https://github.com/sousou617/HTMLpractice1">Practices</a></li>
-			</ul>
+		<ul id="about">
+			<li><a href="#">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
 		</nav>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		<div id="showcase">
+			<div id="container">
+				
+			</div>
+		</div>
+	</section>
+		<p id="para1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 		cillum dolore eu fugiat nulla pariatur. <strong>Excepteur sint occaecat cupidatat non
 		proident,</strong> sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 		<br>
-		<p>These are a few of my hobbies:</p>
+		<p id="list1">These are a few of my hobbies:</p>
 		<li>Photography</li>
 		<li>Programming</li>
 		<li>Traveling</li>
@@ -29,7 +38,8 @@
 		
 		<br>
 		<p>If you want to know more, please Click <a href="https://google.com"> Here</a></p>
-	</section>
+	
+	<button class="button"><a href="Back on top"></a></button>
 	<form>
 		<div>
 	<label>Subscribe:</label>
@@ -41,8 +51,20 @@
 		<textarea name="Self Introduction"></textarea>
 	</div>
 	</form>
-	<footer>
+
+<h1>Click the button to open a new browser window.</h1>
+
+<button onclick="myFunction()">New Browser</button>
+
+<script>
+function myFunction() {
+    window.open("https://www.Google.com");
+}
+</script>
+
+	<footer class="main-footer">
 		<p><small> Copyright &copy;2018, My Home Page</small></p>
 	</footer>
 </body>
 </html>
+

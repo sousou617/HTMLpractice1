@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JS Examples</title>
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+	<style type="text/css">
+		body{padding-top: 70px}
+	</style>
+</head>
+<body>
+
+<div class="container">
+	<button onmouseover="clicked()"
+	onmouseout="clearDate()">Show Current Time		
+	</button>
+	<label>Background</label>
+	<form name="myForm">
+		<select name="background" id="background">
+			<option value="red">Red</option>
+			<option value="blue">Blue</option>
+			<option value="green">Green</option>
+		</select>
+		<button onclick="changeBackGround(myForm.background);" type="submit">Submit</button>
+	</form>
+</div>
+
+<div id="time">
+	<div class="container">
+		<h1>Calculator</h1>
+		<input id="a" placeholder="input number">
+		+
+		<input id="b" placeholder="input number">
+		=
+		<span id="c"></span>
+		<br>
+		<button onclick="addAB()">Add A and B</button>
+	</div>
+</div>
+<div id=time></div>
+<script type="text/javascript" src="JSexamples.js"></script> 
+</body>
+</html>

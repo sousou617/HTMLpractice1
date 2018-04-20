@@ -1,0 +1,58 @@
+body{
+	background-color: #F2EEF6;
+
+}
+
+#main-name{
+	background-color: #EBDAFA;
+	text-align: center;
+	background-image: url(pictures/purpleskies.jpg);
+}
+
+.main-footer{
+	position: absolute;
+	bottom: 0;
+	margin-left: 
+	color: gray;
+}
+
+nav ul{
+	text-align: right;
+	list-style: none;
+	text-decoration: none;	
+	word-spacing: 5px;
+}
+nav li{
+	display: inline;
+}
+
+#about{
+	border-spacing: initial;
+}
+
+#list1{
+
+}
+
+#para1{
+	align-content: center;
+	padding: 25px;
+}
+
+div{
+	color: #F00FA2;
+}
+
+/*.button{
+	background-color: #4CAF50;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+}*/
+

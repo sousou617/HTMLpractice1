@@ -1,0 +1,120 @@
+
+
+#blog-1{
+			color: #16865A
+			text-align: center;
+	}
+
+#blog-2{
+			color: blue; 
+			text-align: center;
+	}
+
+#blog-3{
+			color: yellow; 
+			text-align: center;
+	}
+
+h3{
+	text-align: center;
+	background: black;
+	color: white;
+	font-size: 40px
+}
+
+.blog-center{
+	text-align: center;
+	color: yellow
+}
+
+/*h1{
+	background: black;
+	text-align: center;
+	color: white;
+	font-size: 40px
+}
+
+body{
+	background-color: #CED7D3
+	color: white;
+	width: 80%;
+	margin: auto;
+}
+
+/* style for CSS */ 
+
+#blog2section{
+	background-color: blue
+}
+
+button{
+	background: #333;
+}
+
+/*button a {
+	color: white;
+}
+
+a{
+	color: white;
+}
+
+button a{
+	color: yellow;
+	text-decoration: none;
+}  /* colors all button a */
+
+/*ul {
+	line-height: 100px
+}
+
+li {
+	list-style: square;
+}
+
+a:hover{
+	color: black
+}
+
+/* a:hover changes the color with mouse over the button*/
+
+p{
+	margin-top: 100px;
+	margin-left: 200px;
+	margin-bottom: 10px;
+	margin-right: 50px;
+	padding: 800px;
+}
+
+img{
+	padding: 100px;
+	margin: 200px;
+}
+
+.container {
+	background-color: green; 
+}
+
+#p1{
+	color: blue;
+	background-color: black;
+	padding: 100px;
+	margin: 100px;
+}
+
+/*#top{
+	width: 30%;
+	height: 50px;
+	position: fixed;
+	top: 70%;
+	left: 50%
+}
+
+#main-link{
+	font-size: 20px
+}
+
+#pagelist li:nth-child(odd){
+	background-color: red;
+}
+
